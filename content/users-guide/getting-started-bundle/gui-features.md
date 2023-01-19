@@ -135,9 +135,9 @@ Other than with filtering, using wildcards in a search is not supported.
 
 Instead, you can switch the search option by clicking one of the following buttons:
 
-* **Starts with**,
-* **Contains** or
-* **Ends with**.
+* **Starts with**
+* **Contains**
+* **Ends with**
 
 This will search for assets starting with, containing or ending with the search term, respectively.
 

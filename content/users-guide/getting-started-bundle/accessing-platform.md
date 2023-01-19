@@ -34,8 +34,7 @@ You may also use recent smartphone and tablet web browsers. We have tested our p
 {{< c8y-admon-info >}}
 {{< product-c8y-iot >}} on mobile devices shows some limitations.
 The limitations could be the following:
-* The usage may be constrained by the memory and the processing power available on the devices. <br>  
-For example, loading graphs with large amounts of data points may make the mobile device unresponsive.
+* The usage may be constrained by the memory and the processing power available on the devices, for example, loading graphs with large amounts of data points may make the mobile device unresponsive.
 * Using the private mode on browsers may not work.
 * The [Streaming Analytics application](/apama/overview-analytics/) does not support mobile or touch devices.
 {{< /c8y-admon-info >}}
@@ -77,8 +76,8 @@ The cookie banner is turned on by default on the {{< product-c8y-iot >}} public 
 * Click **Agree and Proceed** to accept the default cookie settings (required and functional cookies enabled).
 * Click **Reject all** to reject all of the default cookie settings.
 * Click **Preferences** to select your individual cookie preferences:
-	* **Required** - Required to enable core site functionality. They perform a task or operation without which a site's functionality would not be possible. Required cookies cannot be disabled.
-	* **Functional** - Used to track site usage and to process personal data to measure and improve usability and performance. Functional cookies must be actively enabled.
+	* **Required** - required to enable core site functionality. They perform a task or operation without which a site's functionality would not be possible. Required cookies cannot be disabled.
+	* **Functional** - used to track site usage and to process personal data to measure and improve usability and performance. Functional cookies must be actively enabled.
 * Click **See also our Privacy Notice** to open the [{{< company-sag >}} privacy statement]({{< link-sag-privacy-statement >}}) with details on the {{< company-sag >}} privacy policy.
 
 
@@ -107,11 +106,8 @@ The maximum number of failed logins (due to invalid credentials), after which a 
 4. Click the link in the email and provide your new password.
 
 {{< c8y-admon-info >}}
-The password reset link is only valid for one day.
-{{< /c8y-admon-info >}}
-
-{{< c8y-admon-info >}}
-The automated password reset will only work if your email address is stored with your {{< product-c8y-iot >}} user. If you get a warning that the password cannot be reset, you are either using a different email address than the one stored with your {{< product-c8y-iot >}} user, or your {{< product-c8y-iot >}} user has no email address stored. In either case, contact a {{< product-c8y-iot >}} administrator in your organization. Administrators can reset your password.
+* The password reset link is only valid for one day.
+* The automated password reset will only work if your email address is stored with your {{< product-c8y-iot >}} user. If you get a warning that the password cannot be reset, you are either using a different email address than the one stored with your {{< product-c8y-iot >}} user, or your {{< product-c8y-iot >}} user has no email address stored. In either case, contact a {{< product-c8y-iot >}} administrator in your organization. Administrators can reset your password.
 {{< /c8y-admon-info >}}
 
 If you yourself are the primary administrator, your email address used on first registering is automatically stored with your user. If you have questions, please contact [product support](/welcome/contacting-support/).
