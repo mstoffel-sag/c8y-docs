@@ -88,7 +88,7 @@ Wenn ein Intervall angegeben ist, befindet sich darunter der Umschalter **Wartun
 
 Mit dem Umschalter **Wartung** können Sie den Wartungsmodus für das Gerät ein- oder ausschalten. Dies wird unmittelbar im Verbindungsstatus angezeigt.
 
-<img src="/images/benutzerhandbuch/DeviceManagement/devmgmt-devices-deviceinfomaintenance.png" alt="Device status maintenance">
+<!-- <img src="/images/benutzerhandbuch/DeviceManagement/devmgmt-devices-deviceinfomaintenance.png" alt="Device status maintenance"> -->
 
 <a name="monitoring-availability"></a>
 ### Verfügbarkeit
@@ -208,7 +208,7 @@ Klicken Sie auf den Pfeil rechts in einem Eintrag, um die Zeile auszuklappen und
 
 Um den Status eines Alarms zu ändern, bewegen Sie den Mauszeiger über die Zeile und klicken Sie auf die entsprechende Schaltfläche oder klicken Sie auf das Menüsymbol und wählen Sie den gewünschten Status.
 
-![Alarm change status](/images/benutzerhandbuch/DeviceManagement/devmgmt-alarms-status.png)
+<!--![Alarm change status](/images/benutzerhandbuch/DeviceManagement/devmgmt-alarms-status.png)-->
 
 Außerdem ist es möglich, den Status aller Alarme auf einmal auf "aufgehoben" zu setzen. Klicken Sie auf **Alle aufheben** in der oberen Menüleiste, um alle Alarme der gewählten Schweregrade zu löschen.
 
