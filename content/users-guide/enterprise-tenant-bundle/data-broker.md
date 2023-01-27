@@ -30,8 +30,6 @@ To be able to use this feature, your tenant must be subscribed to the applicatio
 
 Navigate to **Data connectors** in the **Data broker** menu if you would like to send data to another tenant. Navigate to **Data subscriptions**, if you would like to receive data from another tenant.
 
-<img src="/images/users-guide/enterprise-tenant/et-data-broker-navigator.png" alt="Data broker menus" >
-
 {{< c8y-admon-important >}}
 Devices that are forwarded using the data broker are charged like normal devices in the destination tenant.
 {{< /c8y-admon-important >}}
@@ -188,8 +186,6 @@ In the **Data subscriptions** page, you can manage existing data subscriptions o
 
 Click **Data subscriptions** to see a list of all currently defined data forwarded to your tenant.
 
-<img src="/images/users-guide/enterprise-tenant/et-subscriptions.png" alt="Data subscriptions">
-
 For each subscription, the name, the target tenant and the status (enabled or disabled) is provided on a card.
 
 Use the toggle to temporarily stop forwarding data into your tenant.
@@ -200,6 +196,8 @@ Use the toggle to temporarily stop forwarding data into your tenant.
 2. In the new card, enter the security code that you received from the sending end of the data.
 3. When the connection is established, click **Accept** to start forwarding data into your tenant. The subscription is active now.
 4. You can use the toggle in the card to temporarily stop forwarding data into your tenant.
+
+<img src="/images/users-guide/enterprise-tenant/et-data-broker-subscriptions.png" alt="Data subscriptions">
 
 You can now navigate to the Device Management application or the Cockpit application. You will find a new "virtual group" with a specific icon (see the screenshot below) showing the forwarded devices. The group will have the same name as your subscription. Devices are "lazily" created on the destination side whenever they send data for the first time after setting up an active subscription.
 

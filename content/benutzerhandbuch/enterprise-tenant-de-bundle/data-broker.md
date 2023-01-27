@@ -20,8 +20,6 @@ Um diese Funktion verwenden zu können, muss Ihr Mandant die Anwendung "feature-
 
 Navigieren Sie zur Seite **Datenkonnektor** im Menü **Data Broker**, wenn Sie anderen Mandanten Daten senden möchten. Navigieren Sie zur Seite **Datenabonnements**, wenn Sie von anderen Mandanten Daten erhalten möchten.
 
-<img src="/images/benutzerhandbuch/enterprise-tenant/et-data-broker-navigator.png" alt="Data broker menus" >
-
 {{< c8y-admon-important title="Wichtig">}}
 Geräte, die über Data Broker weitergeleitet werden, werden wie normale Geräte im Zielmandanten abgerechnet.
 {{< /c8y-admon-important >}}
@@ -177,8 +175,6 @@ Auf der Seite **Datenabonnements** können Sie bestehende Datenabonnements verwa
 
 Klicken Sie auf **Datenabonnements**, um eine Liste mit allen aktuell zu Ihrem Mandanten weitergeleiteten Daten anzuzeigen.
 
-<img src="/images/benutzerhandbuch/enterprise-tenant/et-subscriptions.png" alt="Data subscriptions">
-
 Für jedes Abonnement wird der Name, der Zielmandant und der Status (aktiviert oder deaktiviert) auf einer Karte bereitgestellt.
 
 Verwenden Sie den Umschalter, um zeitweilig das Weiterleiten von Daten in Ihren Mandanten zu beenden.
@@ -189,6 +185,8 @@ Verwenden Sie den Umschalter, um zeitweilig das Weiterleiten von Daten in Ihren 
 2. Geben Sie in der neuen Karte den Sicherheitscode ein, den Sie vom Sender der Daten erhalten haben.
 3. Wenn die Verbindung hergestellt ist, klicken Sie auf **Annehmen**, um das Weiterleiten in Ihren Mandanten zu starten. Das Abonnement ist nun aktiv.
 4. Verschieben Sie den Umschalter in der Karte, um zeitweilig das Weiterleiten von Daten in Ihren Mandanten zu beenden.
+
+<img src="/images/benutzerhandbuch/enterprise-tenant/et-data-broker-subscriptions.png" alt="Data subscriptions">
 
 Navigieren Sie nun zur Device Management- oder Cockpit-Anwendung. Dort finden Sie eine neue "virtuelle Gruppe" mit einem speziellen Symbol (siehe Abbildung unten), die die weitergeleiteten Geräte anzeigt. Diese Gruppe hat denselben Namen wie das Abonnement. Geräte werden auf der Empfängerseite verzögert erstellt, sobald sie, nach Einrichten eines aktiven Abonnements, das erste mal Daten senden.
 
